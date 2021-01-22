@@ -1,0 +1,4 @@
+baseURL: "https://examplesite.com"
+title: "Sean Collins"
+paginate: 5
+theme: PaperMod
