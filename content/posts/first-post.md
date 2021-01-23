@@ -1,25 +1,22 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
-# author: ["Me", "You"] # multiple authors
-showToc: true
+title: Hello world!
+date: 2021-01-23T18:30:03+00:00
+tags:
+- first
+author: Me
+showToc: false
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
-disableHLJS: true # to disable highlightjs
-disableShare: false
+description: Just a quick hello!
 disableHLJS: false
+disableShare: false
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+  image: "<image path/url>"
+  alt: "<alt text>"
+  caption: "<text>"
+  relative: false
+  hidden: true
 
 ---
+Just trying to get this thing up and running, so hello everyone!
