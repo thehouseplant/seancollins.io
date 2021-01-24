@@ -74,7 +74,7 @@ Just trust me. It'll save us some steps later. The end result is that it follows
 
 #### Sample Content
 
-One other thing we'll want to take care of before we move onto the next step, is creating a sample post. This will help later when we get to the content management portion of our deployment. For now, simply run a `hugo new posts/first-post.md` and let Hugo generate a sample post for us. We'll want to update the content of this post with the [sample](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd) that PaperMod provides for us: 
+One other thing we'll want to take care of before we move onto the next step, is creating a sample post. This will help later when we get to the content management portion of our deployment. For now, simply run a `hugo new posts/first-post.md` and let Hugo generate a sample post for us. For me, I will be updating the content of this post with the [sample](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd) that PaperMod provides, but your chosen theme may have other options: 
 
     ---
     title: "My 1st post"
@@ -146,23 +146,23 @@ First, we'll want to want to [create](https://app.forestry.io/signup) an account
 
 Once Forestry is connected, you'll be brought your dashboard:
 
-![](/img/09_forestry_dashboard.png)
+![](/img/09_forestry_dashboard.png#center)
 
 From here simply click **Add site** to start the import process:
 
-![](/img/10_forestry_ssg.png)
+![](/img/10_forestry_ssg.png#center)
 
 You will be prompted to select a static site generator. For our purposes, select Hugo and leave the version to whatever it defaults to in the prompt. Also note the blurb at the bottom about using one of their starters. Forestry has [many](https://www.forestry.io/starters/) of them to choose from, and it makes it very easy to started with different static site generators should you choose to. Once you're content with our Hugo settings, hit **Next** and we'll step through the authentication process:
 
-![](/img/11_forestry_git.png)
+![](/img/11_forestry_git.png#center)
 
 Select your git provider of choice, and hit **Next** when you're ready:
 
-![](/img/12_forestry_repository.png)
+![](/img/12_forestry_repository.png#center)
 
 After that, you'll be prompted to select a repository to connect to. This is probably starting to feel pretty familiar by now, but simply pick the repository you setup earlier in the process. Once you're content, hit **Next** one last time. Once it's finished, you'll be brought back to your dashboard, and it will look something like this:
 
-![](/img/09_forestry_dashboard-1.png)
+![](/img/09_forestry_dashboard-1.png#center)
 
 From the dashboard, click on your newly imported site and you will be met with a new dashboard to manage your site's content. 
 
