@@ -26,7 +26,7 @@ Let's build a blog in 30 minutes.
 
 First, you're going to want to have a [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/) account. I chose GitHub, but any of the three will play nicely with the services we are going to use. To get started, register for a new account on GitHub's site, and [create](https://github.com/new) a new repository for your site. I used my [domain](https://github.com/thehouseplant/seancollins.io) name as the repository name, but it's definitely not a requirement. I'd create it without a README file so that we can let our static site generator actually build the project directory, but we'll get into that in a moment. Once the repository has been created, we're done with GitHub (for now).
 
-Now, we're to going to pick a static site generator to help build our blog. For the uninitiated, a static site generator is a way of quickly generating and building a site that can be deployed to a static content host. There are far too many generators to keep up with, and I recommend folks take some time to [explore](https://jamstack.org/generators/) the various options in this space. I have chosen one with a _very_ low barrier to entry: [Hugo](https://gohugo.io/). I like Hugo because the installation is as simple as a `brew install hugo` on macOS, or through one of the other methods in their installation [documentation](https://gohugo.io/getting-started/installing). After you've gotten it installed, I recommend following their [quick start](https://gohugo.io/getting-started/quick-start/) guide to get up and running. You'll want to make the project name the same as the name of the repository you configured earlier. For me, this meant `hugo new site seancollins.io`. This creates a blank Hugo project that we can work with.
+Now, we're to going to pick a static site generator to help build our blog. For the uninitiated, a static site generator is a way of quickly generating and building a site that can be deployed to a static content host. There are far too many generators to keep up with, and I recommend folks take some time to [explore](https://jamstack.org/generators/) the various options in this space. I have chosen one with a _very_ low barrier to entry: [Hugo](https://gohugo.io/). I like Hugo because the installation is as simple as a `brew install hugo` on macOS, or through one of the other methods in their installation [documentation](https://gohugo.io/getting-started/installing). After it's installed I recommend following their [quick start](https://gohugo.io/getting-started/quick-start/) guide to get up and running. You'll want to make the project name the same as the name of the repository you configured earlier. For me, this meant `hugo new site seancollins.io`. This creates a blank Hugo project that we can work with.
 
 Next, you'll want to pick out a theme. I went with [PaperMod](https://themes.gohugo.io/hugo-papermod/). It's clean and blog-friendly, lightning fast, provides a dark/light mode toggle, and gives me plenty of other features to tinker with. There are many other [themes](https://themes.gohugo.io/) to choose from, so don't be afraid to explore other options until you find one that suits your needs. Each theme will provide its own installation guidelines, so you'll want to pay close attention to that as you do your exploration. I went with the git-submodule route by doing the following:
 
@@ -72,4 +72,12 @@ Once that has been done, it's time to find a place to host this your new site. T
 
 ![](/img/01_netlify_auth.png#center)
 
-We trust Netlify, so go ahead and hit Authorize so that it can view your public repositories. Simply select the repository we setup earlier, then
+We trust Netlify, so go ahead and hit Authorize so that you can get logged into the platform. Then, we'll [add](https://app.netlify.com/start) a new site with continuous deployment:
+
+![](/img/02_netlify_start.png#center)
+
+Select your source control platform. You'll see a pop-up confirming the authorization step we went through a moment ago. Then, you'll be confronted with a list of repositories to add to Netlify:
+
+![](/img/03_netlify_create.png#center)
+
+Next, it will pull the settings we specified in our `netlify.toml` file. 
