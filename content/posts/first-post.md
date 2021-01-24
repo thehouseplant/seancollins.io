@@ -112,7 +112,7 @@ First, we'll want to want to [create](https://app.forestry.io/signup) an account
 
 ![](/img/08_forestry_create.png#center)
 
-Once Forestry is connected, you'll be brought your dashboard (yours will be a bit more sparse than mine):
+Once Forestry is connected, you'll be brought your dashboard:
 
 ![](/img/09_forestry_dashboard.png)
 
@@ -120,14 +120,14 @@ From here simply click **Add site** to start the import process:
 
 ![](/img/10_forestry_ssg.png)
 
-You will be prompted to select a static site generator. For our purposes, select Hugo and leave the version to whatever it defaults to in the prompt. Also note the blurb at the bottom about using one of their starters. Forestry has [many](https://www.forestry.io/starters/) of them to choose from, and it makes it very easy to started with different static site generators should you choose to. Once you're content with our Hugo settings, hit **Next** and we'll step through the authentication process: 
+You will be prompted to select a static site generator. For our purposes, select Hugo and leave the version to whatever it defaults to in the prompt. Also note the blurb at the bottom about using one of their starters. Forestry has [many](https://www.forestry.io/starters/) of them to choose from, and it makes it very easy to started with different static site generators should you choose to. Once you're content with our Hugo settings, hit **Next** and we'll step through the authentication process:
 
 ![](/img/11_forestry_git.png)
 
-Select your git provider of choice, and hit **Next** when you're ready: 
+Select your git provider of choice, and hit **Next** when you're ready:
 
 ![](/img/12_forestry_repository.png)
 
-After that, you'll be prompted to select a repository to connect to. This is probably starting to feel pretty familiar by now, but simply pick the repository you setup earlier in the process. Once you're content, hit **Next** one last time. Once it's finished, you'll be brought back to your dashboard, and it will look something like this: 
+After that, you'll be prompted to select a repository to connect to. This is probably starting to feel pretty familiar by now, but simply pick the repository you setup earlier in the process. Once you're content, hit **Next** one last time. Once it's finished, you'll be brought back to your dashboard, and it will look something like this:
 
 ![](/img/09_forestry_dashboard-1.png)
