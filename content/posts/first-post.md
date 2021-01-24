@@ -80,4 +80,8 @@ Select your source control platform. You'll see a pop-up confirming the authoriz
 
 ![](/img/03_netlify_create.png#center)
 
-Next, it will pull the settings we specified in our `netlify.toml` file. 
+Next, it will pull the settings we specified in our `netlify.toml` file. This is the part where we save a few steps, but this is what the configuration should look like: 
+
+![](/img/04_netlify_deploy.png#center)
+
+...
