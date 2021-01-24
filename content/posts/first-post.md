@@ -72,6 +72,38 @@ With the theme installed, we'll want to configure it. Hugo comes with its own `c
 
 Just trust me. It'll save us some steps later. The end result is that it follows the Hugo Netlify deployment [guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/). We'll be following similar steps, but feel free to go through that guide as well.
 
+#### Sample Content
+
+One other thing we'll want to take care of before we move onto the next step, is creating a sample post. This will help later when we get to the content management portion of our deployment. For now, simply run a `hugo new posts/first-post.md` and let Hugo generate a sample post for us. We'll want to update the content of this post with the [sample](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd) that PaperMod provides for us: 
+
+    ---
+    title: "My 1st post"
+    date: 2020-09-15T11:30:03+00:00
+    # weight: 1
+    # aliases: ["/first"]
+    tags: ["first"]
+    author: "Me"
+    # author: ["Me", "You"] # multiple authors
+    showToc: true
+    TocOpen: false
+    draft: false
+    hidemeta: false
+    comments: false
+    description: "Desc Text."
+    disableHLJS: true # to disable highlightjs
+    disableShare: false
+    disableHLJS: false
+    cover:
+        image: "<image path/url>" # image path/url
+        alt: "<alt text>" # alt text
+        caption: "<text>" # display caption under cover
+        relative: false # when using page bundles set this to true
+        hidden: true # only hide on current single page
+    
+    ---
+
+This will expose all of the front matter, or post configuration, to us for later customization. 
+
 #### Hosting
 
 Once that has been done, it's time to find a place to host this your new site. Today, we'll be taking advantage of [Netlify](https://www.netlify.com/), one of the many static content hosts on the market today. There are others in this space, like [Vercel](https://vercel.com/), [Surge](https://surge.sh/), or services from AWS like [Amplify](https://aws.amazon.com/amplify/hosting/) and static site hosting via [S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html). Again, I chose Netlify because of its ease of use and low barrier to entry. To get started on Netlify, head to their [signup](https://app.netlify.com/signup) site and connect to your GitHub (or equivalent) account. You'll get prompted to authorize the application:
@@ -131,3 +163,9 @@ Select your git provider of choice, and hit **Next** when you're ready:
 After that, you'll be prompted to select a repository to connect to. This is probably starting to feel pretty familiar by now, but simply pick the repository you setup earlier in the process. Once you're content, hit **Next** one last time. Once it's finished, you'll be brought back to your dashboard, and it will look something like this:
 
 ![](/img/09_forestry_dashboard-1.png)
+
+From the dashboard, click on your newly imported site and you will be met with a new dashboard to manage your site's content. 
+
+#### Putting it All Together
+
+You have now built a blog
