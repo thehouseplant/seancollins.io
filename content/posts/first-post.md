@@ -92,18 +92,22 @@ Next, it will pull the settings we specified in our `netlify.toml` file. This is
 
 Mash the deploy button and you will be greeted with the dashboard for your new site. Mine has a few more deploys under its belt, but you should end up with something that looks a bit like this:
 
-![](/img/05_netlify_dashboard.png)
+![](/img/05_netlify_dashboard.png#center)
 
 Here is your site's command center. The first thing you'll want to do is head into Site Settings and change your site's URL. Netlify automatically generates a URL so that you can easily get started, but you'll want to clean that up a bit so your blog doesn't live at frosty-batwing-12345.netlify.app or something in that vein. In Site Settings, take a look at this section:
 
-![](/img/06_netlify_site_settings.png)
+![](/img/06_netlify_site_settings.png#center)
 
 Then hit **Change site name** to update the URL to something more to your liking:
 
-![](/img/07_netlify_site_name.png)
+![](/img/07_netlify_site_name.png#center)
 
 Other areas of note in your dashboard are various build and deploy, settings, domain management (more on this later), and other built-in Netlify services like [Forms](https://www.netlify.com/products/forms/), [Authentication](https://docs.netlify.com/visitor-access/identity/?_ga=2.17008752.832999977.1611436317-1095185594.1611436317), and [Analytics](https://www.netlify.com/products/analytics/). Otherwise, assuming the build went through successfully, you site should be live. Pretty easy, huh?
 
 #### Content Management
 
-Well, let's go a step further and introduce a content management system into the mix. I personally love working with git, but I know that it may not be everyone's cup of tea. Something about editing blog posts in VS Code may not be the best workflow for folks who are more focused on the content. Here is where I will introduce [Forestry](https://forestry.io/) into the mix. Now, as with every layer of the stack we've talked about in this article, Forestry is not alone in this space. There are many other [services]() in this area
+Now, let's go a step further and introduce a content management system into the mix. I personally love working with git, but I know that it may not be everyone's cup of tea. Something about editing blog posts in VS Code may not be the best workflow for folks who are more focused on the content. Here is where I will introduce [Forestry](https://forestry.io/) into the mix. Now, as with every layer of the stack we've talked about in this article, Forestry is not alone in this space. There are many other [services]() in this area, but I like Forestry's clean, no-nonsense approach to getting started and publishing content. 
+
+First, we'll want to want to [create](https://app.forestry.io/signup) an account and go through the process of granting access to our version control platform. I recommend simply signing in with your GitHub (or equivalent) account to simplify that handshake:
+
+![](/img/08_forestry_create.png#center)
