@@ -166,13 +166,13 @@ After that, you'll be prompted to select a repository to connect to. This is pro
 
 From the dashboard, click on your newly imported site and you will be met with a new home to manage your site's content and a small guide to walk you through finishing the setup of your site, care of Forestry:
 
-IMAGE
+![](/img/13_forestry_walkthrough.png#center)
 
-The main thing we'll want to configure is setting up media imports, which is a part of this guide. Feel free to step through it on your own, but for now let's click on **Settings -> Media** and configure the path for image uploads and image serving. Hugo has a few locations for storing this content, but I'd recommend going with a standard setup like this: 
+The main thing we'll want to configure is setting up media imports, which is a part of this guide. Feel free to step through it on your own, but for now let's click on **Settings -> Media** and configure the path for image uploads and image serving. Hugo has a few locations for storing this content, but I'd recommend going with a standard setup like this:
 
-IMAGE
+![](/img/14_forestry_media.png#center)
 
-...
+Now that your media is set, let's move up to **Posts** in that lefthand pane. 
 
 #### Putting it All Together
 
