@@ -47,7 +47,9 @@ params:
       url: tags
   homeInfoParams:
     Title: "Hi everyone \U0001F44B"
-    Content: 'My name is Sean Collins and I lead '
+    Content: 'My name is Sean Collins and I am a Lead Systems Engineer @esri. I like
+      stuff and occasionally blog about it. Take a look and drop me a line if you''re
+      bored. '
   socialIcons:
   - name: linkedin
     url: https://linkedin.com/in/theseancollins
