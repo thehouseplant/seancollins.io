@@ -74,7 +74,7 @@ Just trust me. It'll save us some steps later. The end result is that it follows
 
 #### Sample Content
 
-One other thing we'll want to take care of before we move onto the next step, is creating a sample post. This will help later when we get to the content management portion of our deployment. For now, simply run a `hugo new posts/first-post.md` and let Hugo generate a sample post for us. For me, I will be updating the content of this post with the [sample](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd) that PaperMod provides, but your chosen theme may have other options: 
+One other thing we'll want to take care of before we move onto the next step, is creating a sample post. This will help later when we get to the content management portion of our deployment. For now, simply run a `hugo new posts/first-post.md` and let Hugo generate a sample post for us. For me, I will be updating the content of this post with the [sample](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/#sample-pagemd) that PaperMod provides, but your chosen theme may have other options:
 
     ---
     title: "My 1st post"
@@ -102,7 +102,7 @@ One other thing we'll want to take care of before we move onto the next step, is
     
     ---
 
-This will expose all of the front matter, or post configuration, to us for later customization. 
+This will expose all of the front matter, or post configuration, to us for later customization.
 
 #### Hosting
 
@@ -164,7 +164,15 @@ After that, you'll be prompted to select a repository to connect to. This is pro
 
 ![](/img/09_forestry_dashboard-1.png#center)
 
-From the dashboard, click on your newly imported site and you will be met with a new dashboard to manage your site's content. 
+From the dashboard, click on your newly imported site and you will be met with a new home to manage your site's content and a small guide to walk you through finishing the setup of your site, care of Forestry:
+
+IMAGE
+
+The main thing we'll want to configure is setting up media imports, which is a part of this guide. Feel free to step through it on your own, but for now let's click on **Settings -> Media** and configure the path for image uploads and image serving. Hugo has a few locations for storing this content, but I'd recommend going with a standard setup like this: 
+
+IMAGE
+
+...
 
 #### Putting it All Together
 
