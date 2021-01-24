@@ -1,7 +1,7 @@
 ---
 baseURL: https://seancollins.io
 title: Sean Collins
-paginate: 5
+paginate: "5"
 theme: PaperMod
 enableRobotsTXT: true
 buildDrafts: false
@@ -11,7 +11,7 @@ minify:
   disableXML: true
   minifyOutput: true
 params:
-  env: development
+  env: production
   title: Sean Collins
   description: ''
   author: Me
@@ -32,13 +32,13 @@ params:
     safari_pinned_tab: "<link / abs url>"
   label:
     text: Sean Collins
-    iconHeight: 35
+    iconHeight: "35"
   profileMode:
     enabled: false
     title: Sean Collins
     imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    imageWidth: "120"
+    imageHeight: "120"
     imageTitle: my image
     buttons:
     - name: Posts
@@ -46,8 +46,8 @@ params:
     - name: Tags
       url: tags
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi everyone \U0001F44B"
+    Content: 'My name is Sean Collins and I lead '
   socialIcons:
   - name: linkedin
     url: https://linkedin.com/in/theseancollins
@@ -65,10 +65,10 @@ params:
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
+    location: "0"
+    distance: "1000"
+    threshold: "0.4"
+    minMatchCharLength: "0"
     keys:
     - title
     - permalink
@@ -76,11 +76,11 @@ params:
     - content
 menu:
   main:
-  - url: "/categories/"
-    name: Categories
-    weight: 1
-    identifier: categories
   - url: "/tags/"
-    name: Tags
-    weight: 2
+    name: tags
+    weight: "2"
     identifier: tags
+  - url: "/categories/"
+    name: categories
+    weight: "1"
+    identifier: categories
