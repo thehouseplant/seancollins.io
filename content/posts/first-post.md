@@ -1,5 +1,5 @@
 ---
-title: Build and host a blog in 30 minutes
+title: Start a blog on your lunch break
 date: 2021-01-23T18:30:03.000+00:00
 tags:
 - tutorial
@@ -22,7 +22,7 @@ cover:
 ---
 Like many people in tech, we are told that we should start a blog. I have tried to do exactly that about a dozen times, each met with failure or a lack of desire to finish the project. This is a guide for folks that want to get started in this space, but do not want to invest hours in trying to find a stack, technology, or platform to enable them to do it.
 
-Let's build a blog in 30 minutes.
+Let's build a blog. 
 
 First, you're going to want to have a [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), or [Bitbucket](https://bitbucket.org/) account. I chose GitHub, but any of the three will play nicely with the services we are going to use. To get started, register for a new account on GitHub's site, and [create](https://github.com/new) a new repository for your site. I used my [domain](https://github.com/thehouseplant/seancollins.io) name as the repository name, but it's definitely not a requirement. I'd create it without a README file so that we can let our static site generator actually build the project directory, but we'll get into that in a moment. Once the repository has been created, we're done with GitHub (for now).
 
@@ -80,8 +80,22 @@ Select your source control platform. You'll see a pop-up confirming the authoriz
 
 ![](/img/03_netlify_create.png#center)
 
-Next, it will pull the settings we specified in our `netlify.toml` file. This is the part where we save a few steps, but this is what the configuration should look like: 
+Next, it will pull the settings we specified in our `netlify.toml` file. This is the part where we save a few steps, but this is what the configuration should look like:
 
 ![](/img/04_netlify_deploy.png#center)
 
-...
+Mash the deploy button and you will be greeted with the dashboard for your new site. Mine has a few more deploys under its belt, but you should end up with something that looks a bit like this: 
+
+![](/img/05_netlify_dashboard.png)
+
+Here is your site's command center. The first thing you'll want to do is head into Site Settings and change your site's URL. Netlify automatically generates a URL so that you can easily get started, but you'll want to clean that up a bit so your blog doesn't live at frosty-batwing-12345.netlify.app or something in that vein. In Site Settings, take a look at this section:  
+
+![](/img/06_netlify_site_settings.png)
+
+Then hit **Change site name** to update the URL to something more to your liking:
+
+![](/img/07_netlify_site_name.png)
+
+Other areas of note in your dashboard are various build and deploy, settings, domain management (more on this later), and other built-in Netlify services like [Forms](https://www.netlify.com/products/forms/), [Authentication](https://docs.netlify.com/visitor-access/identity/?_ga=2.17008752.832999977.1611436317-1095185594.1611436317), and [Analytics](https://www.netlify.com/products/analytics/). Otherwise, assuming the build went through successfully, you site should be live. Pretty easy, huh? 
+
+Well, let's go a step further and introduce a content management system into the mix. I personally love working with git, but I know that it may not be everyone's cup of tea. Something about editing blog posts in VS Code may not be the best workflow for folks who are more focused on the content. Here is where I will introduce [Forestry](https://forestry.io/) into the mix. Now, as with every layer of the stack we've talked about in this article, Forestry is not alone in this space. There are many other [services]() in this area
