@@ -76,11 +76,11 @@ params:
     - content
 menu:
   main:
-  - url: "/tags/"
-    name: tags
-    weight: 2
-    identifier: tags
   - url: "/categories/"
-    name: categories
+    name: Categories
     weight: 1
     identifier: categories
+  - url: "/tags/"
+    name: Tags
+    weight: 2
+    identifier: tags
